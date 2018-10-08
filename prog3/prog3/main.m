@@ -26,6 +26,10 @@ int main(int argc, const char * argv[]) {
         
         NSLog(@"Area = %i, Perimeter = %i", [myRect area], [myRect perimeter]);
         
+        [myPoint setX: 50 andY: 80];
+        NSLog(@"Origin at (%i, %i", myRect.origin.x, myRect.origin.y);
+        
+        
     }
     return 0; 
 }
