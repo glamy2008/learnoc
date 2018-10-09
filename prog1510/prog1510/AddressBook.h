@@ -21,7 +21,7 @@
 -(void) addCard: (AddressCard *) theCard;
 -(int) entries;
 -(void) list;
-
+-(void) sort;
 @end
 
 

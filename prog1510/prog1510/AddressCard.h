@@ -19,6 +19,8 @@
 
 -(void) print;
 
+-(NSComparisonResult) compareName: (id) element;
+
 @end
 
 #endif /* AdressCard_h */

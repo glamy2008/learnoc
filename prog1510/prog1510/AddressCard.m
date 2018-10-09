@@ -32,4 +32,11 @@
     
 }
 
+-(NSComparisonResult) compareName:(id)element
+{
+    NSLog(@"name = %@", name);
+    NSLog(@"element name = %@", [element name]);
+    return [name compare: [element name]];
+}
+
 @end

@@ -50,4 +50,7 @@
     NSLog(@"====================================");
 }
 
+-(void) sort {
+    [book sortUsingSelector: @selector(compareName:)];
+}
 @end
