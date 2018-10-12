@@ -83,7 +83,8 @@
     
     result.numerator = numerator * f.denominator;
     result.denominator = denominator * f.numerator;
-      [result reduce];
+    
+    [result reduce];
     return result;
 }
 
@@ -93,7 +94,20 @@
     int v = denominator;
     int temp;
     
+    if (u == 0)
+        return;
+    else if (u < 0)
+        u = -u;
     
+    while (v != 0) {
+        temp = u % v;
+        u = v;
+        v = temp;
+    }
+    
+    numerator /= u;
+    denominator /=  u;
 }
 
 @end
+
