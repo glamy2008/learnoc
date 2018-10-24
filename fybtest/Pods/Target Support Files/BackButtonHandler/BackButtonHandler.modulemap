@@ -1,0 +1,6 @@
+framework module BackButtonHandler {
+  umbrella header "BackButtonHandler-umbrella.h"
+
+  export *
+  module * { export * }
+}

@@ -1,0 +1,6 @@
+framework module MTCompCollectionView {
+  umbrella header "MTCompCollectionView-umbrella.h"
+
+  export *
+  module * { export * }
+}

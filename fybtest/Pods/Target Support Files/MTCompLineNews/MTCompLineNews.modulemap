@@ -1,0 +1,6 @@
+framework module MTCompLineNews {
+  umbrella header "MTCompLineNews-umbrella.h"
+
+  export *
+  module * { export * }
+}

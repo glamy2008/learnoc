@@ -1,0 +1,6 @@
+framework module MTCompSwipeView {
+  umbrella header "MTCompSwipeView-umbrella.h"
+
+  export *
+  module * { export * }
+}

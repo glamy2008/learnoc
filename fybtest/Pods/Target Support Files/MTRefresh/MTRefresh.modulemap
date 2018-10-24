@@ -1,0 +1,6 @@
+framework module MTRefresh {
+  umbrella header "MTRefresh-umbrella.h"
+
+  export *
+  module * { export * }
+}

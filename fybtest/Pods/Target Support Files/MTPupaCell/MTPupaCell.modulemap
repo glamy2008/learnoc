@@ -1,0 +1,6 @@
+framework module MTPupaCell {
+  umbrella header "MTPupaCell-umbrella.h"
+
+  export *
+  module * { export * }
+}

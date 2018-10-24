@@ -1,0 +1,20 @@
+platform :ios, '9.0'
+
+inhibit_all_warnings!
+use_frameworks!
+
+target 'fybtest' do
+    pod 'MTCompSwipeView', '~> 0.1'
+    
+    pod 'MTCompCollectionView', '~> 0.1'
+    
+    pod 'MTCompLineNews', '~> 0.1'
+    
+    pod 'MTPupaCell', '~> 0.1'
+    
+    pod 'MTRefresh', '~> 0.1'
+    
+    pod 'EAIntroView', '~> 2.12'
+    
+    pod 'Harpy', '~> 4.1'
+end

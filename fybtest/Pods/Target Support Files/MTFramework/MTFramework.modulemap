@@ -1,0 +1,6 @@
+framework module MTFramework {
+  umbrella header "MTFramework-umbrella.h"
+
+  export *
+  module * { export * }
+}

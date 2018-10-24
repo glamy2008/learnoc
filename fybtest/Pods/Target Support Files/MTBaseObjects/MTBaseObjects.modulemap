@@ -1,0 +1,6 @@
+framework module MTBaseObjects {
+  umbrella header "MTBaseObjects-umbrella.h"
+
+  export *
+  module * { export * }
+}
